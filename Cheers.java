@@ -4,7 +4,7 @@ public class Cheers {
                 int times = Integer.parseInt(args[1]);
                 for (int i = 0; i < word.length(); i++) {
                         char ch = word.charAt(i);
-                        if ("AEFHILMNORSX".indexOf(word) == -1) {
+                        if ("AEFHILMNORSX".indexOf(ch) == -1) {
                                 System.out.println("Give me a " + ch + ": " + ch + "!");
                         }
                         else {
@@ -16,4 +16,5 @@ public class Cheers {
                         System.out.println(word + "!!!");
                 }
         }
+
 }
