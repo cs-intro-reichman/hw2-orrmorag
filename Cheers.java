@@ -5,7 +5,7 @@ public class Cheers {
                 for (int i = 0; i < word.length(); i++) {
                         char ch = word.charAt(i);
                         if ("AEFHILMNORSX".indexOf(ch) == -1) {
-                                System.out.println("Give me a " + ch + ": " + ch + "!");
+                                System.out.println("Give me a  " + ch + ": " + ch + "!");
                         }
                         else {
                                 System.out.println("Give me an " + ch + ": " + ch + "!");
